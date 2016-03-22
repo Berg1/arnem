@@ -1,0 +1,56 @@
+body {margin: 0; border: none; width: 100%; //overflow: hidden; position: relative; color: #333; background-color: #fff; font: normal .8em arial, helvetica, sans-serif;}
+ol, ul, li, dl, dt, dd, h1, h2, h3, p, blockquote, cite, a {margin: 0; padding: 0; outline: none; border: none; vertical-align: baseline;}
+header, hgroup, nav, aside, section, footer {display: block;}
+img {border: none; font: normal 11px arial, helvetica, sans-serif; color: #999;}
+h3 {margin: 2.2em 0 .8em 0; font: bold italic 1.5em georgia, arial, helvetica, sans-serif; line-height: 1.3em;}
+h3 a {color: #333!important;}
+dt {line-height: 1.45em;}
+.site {padding: 1.6em; overflow: hidden;}
+
+header {background-color: #000; width: 100%; height: 76px; overflow: hidden;}
+    header h1 {color: #ff3600; font: bold 50px helvetica, arial, sans-serif; margin: .25em 0 0 .4em; float: left; letter-spacing: -.035em; display: inline;}
+    hgroup a {color: #ff3600!important; font: bold 50px helvetica, arial, sans-serif; text-decoration: none;}
+    header h2 {color: #fff; font: normal 1em arial, helvetica, sans-serif; margin: 3.7em 0 0 2.7em; float: left;}
+   .adr i {background: url(img/sprites.gif) -120px -33px no-repeat; width: 14px; height: 13px; position: absolute; margin-left: -1.5em;}
+   .adr {float: right; color: #fff; margin: 3.7em 1.6em 0 0; height: 18px; display: inline;}
+
+   .v-menu, aside {float: left; width: 20%;}
+   .v-menu li {list-style: none; line-height: 2em;}
+   .h-menu {clear: both; width: 100%; margin-bottom: 2em; overflow: hidden;}
+   .h-menu ul, footer ul {width: 100%; overflow: hidden;}
+   .h-menu li {list-style: none; float: left; clear: right; height: 33px;}
+   .icons, .work {width: 20%; margin: 0!important; height: 33px;}
+   .h-menu-c {width: 60%!important; margin: 0!important;}
+   .h-menu-c li {margin-right: 30px; padding-top: .35em;}
+   .icons i {background: url(img/sprites.gif) -67px -27px no-repeat; width: 25px; height: 25px; position: absolute;}
+   .icons b {background: url(img/sprites.gif) -93px -35px no-repeat; width: 12px; height: 8px; position: absolute; margin: .7em 0 0 3.5em; cursor: pointer;}
+   .icons s {background: url(img/sprites.gif) -106px -33px no-repeat; width: 13px; height: 13px; position: absolute; margin: .5em 0 0 6em; cursor: pointer;}
+   .reviews {background: url(img/sprites.gif) -1px -27px no-repeat; width: 57px; height: 30px!important; padding-left: .7em;}
+   .schedule {background: url(img/sprites.gif) -1px -1px no-repeat; width: 187px; height: 21px; text-align: center; padding-top: .35em;}
+   .elit {margin-top: 1em;}
+   .elit a {color: #ff3600!important;}
+   .v-menu h3 {width: 100px;}
+
+section {float: left; width: 60%;}
+    section h1 {margin-bottom: 1em; font: bold italic 2em georgia, arial, helvetica, sans-serif; color: #ff3600;}
+   .latest {width: 461px; height: 274px;}
+   .catalog {width: 100%;}
+   .catalog li {list-style: none; float: left; margin: 0 3em 3.5em 0; width: 150px;}
+   .catalog a {text-decoration: none;}
+   .catalog img {margin-bottom: .8em; display: block; height: 79px;}
+   .catalog span {font: italic 120% georgia, 'times new roman'; text-decoration: underline;}
+   .catalog i {background: url(img/sprites.gif) -1px -61px no-repeat; width: 42px; height: 17px; display: block; margin-top: .5em; color: #333; font: bold .9em arial, helvetica, sans-serif!important; padding: .3em 0 0 1.1em; cursor: pointer;}
+
+   .action {width: 180px; height: 268px;}
+   .news dd {margin: .3em 0 1.5em 0; color: #999; font-size: 85%;}
+
+footer {clear: both; width: 100%; color: #999; overflow: hidden; padding-top: 6em;}
+footer li {list-style: none; float: left; clear: right;}
+   .counter, .author {width: 20%;}
+   .copyright {width: 60%;}
+
+ a:link {color: #01a0f3;}
+ a:hover {color: #ff3600;}
+ a:visited {color: #a64686;}
+.street-address, .work a {text-decoration: none; border-bottom: 1px dashed; position: relative;}
+.reviews a {color: #fff!important;}
